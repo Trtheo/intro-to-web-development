@@ -1,24 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <title>Learn - Get Started Today</title>
-  <meta name="description" content="Learn is a platform that offers free courses for everyone. Start learning today!" />
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coding Journey</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
-  <!-- Navbar section -->
+    <header>
+        <nav>
+            <div class="logo">Theophile. N</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#goals">Goals</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Hello, I'm Theophile NIYIGABA</h1>
+            <p>A Web Developer</p>
+            <a href="mailto:niyigabatheo10@gmail.com">
+            <button>Contact Me</button>
+        </a>
+        </div>
+    </header>
 
-  <!-- Hero section -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer dedicated to creating engaging and user-friendly websites.
+        From the moment I started coding, I knew I wanted to build digital experiences that people love to use.
+        I thrive on turning creative ideas into functional websites that make a difference.</p>
+    </section>
 
-  <!-- Coding journey section -->
+    <section id="journey" class="section journey">
+        <h2>Coding Journey</h2>
+        <div class="cards">
+            <div class="card" id="intro">
+                <img src="images/web-dev.png" alt="Intro To Web Development">
+                <h3>Intro To Web Development</h3>
+                <p>Learned how to build Web HTML Projects</p>
+            </div>
+            <div class="card">
+                <img src="images/react-dev.png" alt="React Development">
+                <h3>React Development</h3>
+                <p>Learned how to build Single Page Applications</p>
+            </div>
+            <div class="card">
+                <img src="images/backend-dev.png" alt="Back-end Development">
+                <h3>Back-end Development</h3>
+                <p>Learned how to build back-end services</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer section -->
-
-  <script src="./script.js"></script>
+    <section id="goals" class="section goals">
+        <h2>My Goals</h2>
+        <p>I aspire to mentor and support other aspiring developers, sharing the knowledge and experience I've gained along the way. 
+        By fostering a collaborative and encouraging environment, I hope to help others achieve their own goals and grow in their careers. 
+        Building strong, supportive communities is important to me, as I believe we can achieve more together.</p>
+    </section>
+    <footer>
+        <p>&copy; <span id="year"></span> Theophile Niyigaba. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="./js/script.js"></script>
 </body>
-
 </html>
