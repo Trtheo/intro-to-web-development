@@ -80,7 +80,7 @@ nav {
     color: white;
 }
 header{
-    background-image: url(/intro-2/images/hero.png);
+    background-image: url(./images/hero.png);
     color:lightgoldenrodyellow;
 }
 .section {
